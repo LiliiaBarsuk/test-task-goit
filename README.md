@@ -1,4 +1,6 @@
 # Tweets
+Test task GoIT.
+Here the task from GoIT is implemented. The terms of the task can be viewed here [Task](https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?node-id=0%3A1&t=VoiYTfiXggVItgVd-1).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
