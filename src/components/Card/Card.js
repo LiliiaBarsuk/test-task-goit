@@ -5,9 +5,9 @@ import { useEffect, useState } from 'react';
 
 
 export const Card = () => {
-  const [followers, setFollowers] = useState(JSON.parse(localStorage.getItem("followState")).followers ?? 100500);
-  const [isFollow, setIsFollow] = useState(JSON.parse(localStorage.getItem("followState")).isFollow ?? false)
-  
+  const [followers, setFollowers] = useState(JSON.parse(localStorage.getItem("followState"))?.followers ?? 100500);
+  const [isFollow, setIsFollow] = useState(JSON.parse(localStorage.getItem("followState"))?.isFollow ?? false)
+
   const handleClick = () => {
     setIsFollow(!isFollow);
     if(!isFollow) {setFollowers(prevState => prevState + 1)};
