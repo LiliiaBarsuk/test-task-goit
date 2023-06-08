@@ -42,4 +42,5 @@ export const Card = () => {
             <ButtonStyled isFollow={isFollow} type='button' onClick={handleClick}>{isFollow ? 'Following' : 'Follow'}</ButtonStyled>
         </CardContainer>
     )
-}
+
+  }

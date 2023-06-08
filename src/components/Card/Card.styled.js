@@ -17,6 +17,7 @@ export const CardContainer = styled.div`
   background-position: 36px 28px, 0 0;
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
+  
 `;
 
 export const LogoStyled = styled.img`
